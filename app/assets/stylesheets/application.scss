@@ -1,0 +1,17 @@
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";
+@import "welcome";
+
+.navbar-light .navbar-brand {
+    color: rgba(255, 255, 255, 0.9);
+     font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+	color: rgb(255, 253, 253);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+
