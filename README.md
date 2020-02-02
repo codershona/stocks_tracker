@@ -10,10 +10,13 @@
 
 * Migrate files:
 ```
-   rails generate controller welcome index
-   gem file -> devise added
-   run -- rails generate devise:install
-   rails generate devise USER
+   * rails generate controller welcome index
+   * gem file -> devise added
+      run -- rails generate devise:install
+   * rails generate devise USER
+
+   * gem -> devise bootstrap views added
+   run this, rails generate devise:views:bootstrap_templates and check browser now.
 
 ```
 * Another option:
