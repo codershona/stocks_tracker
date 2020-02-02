@@ -12,7 +12,8 @@
 ```
    rails generate controller welcome index
    gem file -> devise added
-   run -- rails generate devise:instal
+   run -- rails generate devise:install
+   rails generate devise USER
 
 ```
 * Another option:
