@@ -36,6 +36,9 @@ gem 'devise-bootstrap-views', '~> 1.1'
 
 gem 'stock_quote', '~> 3.0'
 
+
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
