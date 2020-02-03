@@ -37,6 +37,28 @@
 
       * rails g controller users my_portfolio
 
+      * User_stocks: (rails console)
+        Stock.all ;
+        User.all ;
+        reload! ;
+        UserStock.all ;
+        Stock.create(ticker: 'AMZN', name: 'Amazon Inc.') ;
+        user = User.first ;
+        stock = Stock.first ;
+        user.stocks << stock  ;
+        UserStock.all ;
+        user.stocks ;
+        user.stocks << Stock.last ;
+        user.stocks.count ;
+        stock = Stock.last ;
+        stock.users ;
+        stock.users << User.last  ;
+        stock.users.count ;
+        UserStock.all ;
+        UserStock.all.count ;
+
+
+
 
 
 ```
