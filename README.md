@@ -18,7 +18,16 @@
    * gem -> devise bootstrap views added
    run this, rails generate devise:views:bootstrap_templates and check browser now.
 
-   * Stock data:  stock_quote gemfile added
+   * Stock data:  
+         stock_quote gemfile added;
+         Run it, rails g model Stock ticker:string name:string last_price:decimal ;
+   (Rails console):
+     - my_stock = Stock.new(name: 'APPLE', ticker: 'AAPL', last_price: 1400)
+     - Stock.all
+     - my_stock.save
+     - google = Stock.find(1)
+     - google
+     - google.last_price
 
 ```
 * Another option:
@@ -30,3 +39,16 @@
    root 'welcome#index'
 
 ```
+
+* TASK: Design and Add Stock Model
+
+```
+  - Attributes name, ticker_symbol and price;
+  - Automate looking up stock ( currently only possible through rails console );
+  - Automate API Key insertion ( instead of having to key it in everytime we look up a stock )
+  - This will expose us to secure credentials in Rails apps:
+       -> Credentials.yml.enc (encrypted file)
+       -> master.key (key to decrypt credentials file)
+
+```
+
