@@ -30,6 +30,7 @@
      - google.last_price
      <!-- Stock.new_lookup('MSFT') -->
       <!-- Stock.new_lookup('AAPL') -->
+    <!--   Stock.new_from_lookup("aapl") -->
 
       * encrypt master key: EDITOR=subl rails credentials:edit  ; EDITOR="subl --wait" rails credentials:edit  ;
       Rails.application.credentials.aws[:access_key_id] ;
