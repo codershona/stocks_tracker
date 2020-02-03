@@ -34,6 +34,8 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
 
 gem 'devise-bootstrap-views', '~> 1.1'
 
+gem 'stock_quote', '~> 3.0'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

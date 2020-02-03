@@ -18,6 +18,8 @@
    * gem -> devise bootstrap views added
    run this, rails generate devise:views:bootstrap_templates and check browser now.
 
+   * Stock data:  stock_quote gemfile added
+
 ```
 * Another option:
 
