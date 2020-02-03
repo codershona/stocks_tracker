@@ -32,7 +32,9 @@
       <!-- Stock.new_lookup('AAPL') -->
 
       * encrypt master key: EDITOR=subl rails credentials:edit  ; EDITOR="subl --wait" rails credentials:edit  ;
-      Rails.application.credentials.aws[:access_key_id]
+      Rails.application.credentials.aws[:access_key_id] ;
+
+      * rails g controller users my_portfolio
 
 
 
