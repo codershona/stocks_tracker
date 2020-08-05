@@ -2,9 +2,6 @@
 
 ## Its a Finance tracker app.
 
-
-### Builded By Falguni Islam (Software developer)
-
 ##### Ready to deploy it in Heroku.
 
 
